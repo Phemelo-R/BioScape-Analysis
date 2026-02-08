@@ -45,8 +45,8 @@ Primary datasets used in this project include:
   Airborne Visible/Infrared Imaging Spectrometer – Next Generation  
   https://popo.jpl.nasa.gov/avng/y23_bioscape/
 
-- **BioSCape NetCDF Data Archive** (To be added after updating)
-  NetCDF Data Archive 
+- **BioSCape NetCDF Data Archive**
+  (To be added after updating)
   https://popo.jpl.nasa.gov/pub/bioscape_netCDF/
 
 - **LVIS L2 Geolocated Surface Elevation and Canopy Height Product (V001)**  
