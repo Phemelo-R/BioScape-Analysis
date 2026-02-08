@@ -2,7 +2,7 @@
 
 This repository contains the analytical workflow for my Honours research project investigating the spectral properties and remote sensing of *Leucadendron argenteum* (Silver Tree), a rare and iconic plant species of South Africa’s Cape Floristic Region. The project integrates hyperspectral imagery and airborne LiDAR data to characterise species-specific reflectance behaviour, canopy structure, and spatial distribution.
 
-All analyses are based on data acquired during the **BioSCape Campaign (2023)** and are designed to be reproducible, modular, and reusable for similar species-level remote sensing studies.
+All analyses are based on data acquired during the **[BioSCape Campaign (2023)](https://www.bioscape.io/)** and are designed to be reproducible, modular, and reusable for similar species-level remote sensing studies.
 
 ---
 
