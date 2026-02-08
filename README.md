@@ -1,48 +1,6 @@
-# Honours Project: Leucadendron argenteum Spectral Analysis
+# Monitoring *Leucadendron argenteum* populations: exploring opportunities offered by emerging technologies
 
-## Project Overview
-
-This repository contains my Honours project exploring the spectral properties and remote sensing of *Leucadendron argenteum*, a rare and iconic plant species of South Africa. The project involves data analysis, spectral profiling, and geospatial mapping using satellite and airborne remote sensing datasets from the BioSCape campaign (2023).
-
-## Data Sources
-
-The datasets used in this project were downloaded from the following sources:
-
-- [Airborne Visible/Infrared Imaging Spectrometer (AVIRIS-NG) Bioscape 2023 Campaign](https://popo.jpl.nasa.gov/avng/y23_bioscape/)
-- [Bioscape NetCDF Data Archive](https://popo.jpl.nasa.gov/pub/bioscape_netCDF/)
-- [LVIS Facility L2 Geolocated Surface Elevation and Canopy Height Product V001](https://search.earthdata.nasa.gov/search?q=LVIS&qt=2023-10-20T00%3A00%3A00.000Z%2C2023-11-15T23%3A59%3A59.999Z&fi=LVIS-Camera!LVIS&fdc=National%2BSnow%2Band%2BIce%2BData%2BCenter%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528NSIDC%2BDAAC%2529&fpj=BioSCape&_ga=2.63606251.53278573.1721067437-1362124365.1714395655&_gl=1*q0ghrk*_ga*MTM2MjEyNDM2NS4xNzE0Mzk1NjU1*_ga_LQ2P0SNJCZ*MTcyMTU5NTQ4Ni4xMjMuMS4xNzIxNTk1NjkxLjAuMC4w)
-
-Please refer to these links for data access and more information on the campaigns.
-
-## Species Focus
-
-All analyses in this repository focus on **Leucadendron argenteum**.
-
-## Project Structure
-
-- **Jupyter Notebooks:** I will upload Jupyter notebooks that document my workflow, code, and analysis. These notebooks will show my working steps and results.
-- **Data:** Data files are referenced from the above sources and should be downloaded separately due to their size.
-- **Scripts:** Any Python scripts or modules used to support the analysis will also be included.
-
-## Getting Started
-
-1. Clone this repository.
-2. Download the relevant data from the sources above.
-3. Open the Jupyter notebooks to follow the analysis.
-
-## Citation & Acknowledgements
-
-If you use the data or code, please cite the relevant data providers and acknowledge the AVIRIS-NG Bioscape campaign and NASA JPL. Thank you.
-
----
-
-*Honours project by Phemelo Rutlokoane, University of the western Cape, 2025.*
-
-
-
-# Spectral and Structural Remote Sensing of *Leucadendron argenteum*
-
-This repository contains the analytical workflow for an Honours research project investigating the spectral and structural characteristics of *Leucadendron argenteum* (Silver Tree), an endemic and conservation-significant species of South Africa’s Cape Floristic Region. The project integrates hyperspectral imagery and airborne LiDAR data to characterise species-specific reflectance behaviour, canopy structure, and spatial distribution.
+This repository contains the analytical workflow for my Honours research project investigating the spectral properties and remote sensing of *Leucadendron argenteum* (Silver Tree), a rare and iconic plant species of South Africa’s Cape Floristic Region. The project integrates hyperspectral imagery and airborne LiDAR data to characterise species-specific reflectance behaviour, canopy structure, and spatial distribution.
 
 All analyses are based on data acquired during the **BioSCape Campaign (2023)** and are designed to be reproducible, modular, and reusable for similar species-level remote sensing studies.
 
@@ -56,7 +14,7 @@ All analyses are based on data acquired during the **BioSCape Campaign (2023)** 
 - quantify structural attributes using LiDAR-derived metrics, and
 - integrate hyperspectral and structural information to support detection, mapping, and ecological interpretation.
 
-The broader intent is methodological rather than purely descriptive: the repository documents a workflow that can be adapted to other woody species in Mediterranean-type ecosystems.
+The repository documents a workflow that can be adapted to other species in the Cape Floristic Region.
 
 ---
 
@@ -79,7 +37,7 @@ Each folder contains the relevant notebooks, scripts, and input data references 
 
 ## Data Sources
 
-Due to file size and licensing constraints, raw input data are **not** hosted in this repository. Users are expected to download the data independently from the original providers.
+Due to file size and licensing constraints, raw LiDAR and Hyperspectral data are **not** hosted in this repository. Users are expected to download the data independently from the original providers.
 
 Primary datasets used in this project include:
 
@@ -87,12 +45,12 @@ Primary datasets used in this project include:
   Airborne Visible/Infrared Imaging Spectrometer – Next Generation  
   https://popo.jpl.nasa.gov/avng/y23_bioscape/
 
-- **BioSCape NetCDF Data Archive**  
+- **BioSCape NetCDF Data Archive** (To be added after updating) 
   https://popo.jpl.nasa.gov/pub/bioscape_netCDF/
 
 - **LVIS L2 Geolocated Surface Elevation and Canopy Height Product (V001)**  
   NASA LVIS Facility, NSIDC DAAC  
-  https://search.earthdata.nasa.gov/
+  [https://search.earthdata.nasa.gov/](https://search.earthdata.nasa.gov/search?q=LVIS&qt=2023-10-20T00%3A00%3A00.000Z%2C2023-11-15T23%3A59%3A59.999Z&fi=LVIS-Camera!LVIS&fdc=National%2BSnow%2Band%2BIce%2BData%2BCenter%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528NSIDC%2BDAAC%2529&fpj=BioSCape&_ga=2.63606251.53278573.1721067437-1362124365.1714395655&_gl=1*q0ghrk*_ga*MTM2MjEyNDM2NS4xNzE0Mzk1NjU1*_ga_LQ2P0SNJCZ*MTcyMTU5NTQ4Ni4xMjMuMS4xNzIxNTk1NjkxLjAuMC4w)
 
 Users should ensure that directory paths within notebooks are updated to reflect their local data storage structure.
 
@@ -100,9 +58,7 @@ Users should ensure that directory paths within notebooks are updated to reflect
 
 ## Reproducibility and Outputs
 
-Output files (maps, tables, derived rasters) are intentionally excluded from version control. The expectation is that users will reproduce outputs locally by running the provided code against the original datasets. This keeps the repository lightweight while preserving full analytical transparency.
-
-All code is written to favour clarity over compression, with intermediate steps retained to make the reasoning explicit.
+Output files (maps, tables, derived rasters) are intentionally excluded from the repository. The expectation is that users will reproduce outputs locally by running the provided code against the original datasets. This keeps the repository lightweight while also preserving full analytical transparency.
 
 ---
 
@@ -111,4 +67,11 @@ All code is written to favour clarity over compression, with intermediate steps 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Phemelo-R/BioScape-Analysis.git
+
+
+## Citation & Acknowledgements
+
+If you use the data or code, please cite the relevant data providers and acknowledge the AVIRIS-NG Bioscape campaign and NASA JPL. Thank you.
+
+*Project by Phemelo Rutlokoane, University of the western Cape, 2025.*
 
