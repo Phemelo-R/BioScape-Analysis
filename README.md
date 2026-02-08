@@ -68,10 +68,13 @@ Output files (maps, tables, derived rasters) are intentionally excluded from the
    ```bash
    git clone https://github.com/Phemelo-R/BioScape-Analysis.git
 
+---
 
 ## Citation & Acknowledgements
 
 If you use the data or code, please cite the relevant data providers and acknowledge the AVIRIS-NG Bioscape campaign and NASA JPL. Thank you.
+
+---
 
 *Project by Phemelo Rutlokoane, University of the western Cape, 2025.*
 
