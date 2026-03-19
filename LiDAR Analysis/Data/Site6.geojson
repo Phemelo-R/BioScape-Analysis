@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Site6",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "plot_num": 6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 18.419816086305463, -34.002129440032263 ], [ 18.419748332805675, -34.002059131017816 ], [ 18.419663913694539, -34.002115559967741 ], [ 18.419731667194327, -34.002185868982188 ], [ 18.419816086305463, -34.002129440032263 ] ] ] } }
+]
+}
