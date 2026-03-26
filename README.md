@@ -1,6 +1,7 @@
 # BioScape Analysis — *Leucadendron argenteum* Detection & Mapping
 ### Airborne Hyperspectral Imaging · LVIS LiDAR · Table Mountain National Park
 
+[![DOI](https://zenodo.org/badge/1151417486.svg)](https://doi.org/10.5281/zenodo.19233253)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![NASA BioSCape](https://img.shields.io/badge/Data-NASA%20BioSCape%202023-blue)](https://www.earthdata.nasa.gov/data/projects/bioscape)
 [![AVIRIS-NG](https://img.shields.io/badge/Sensor-AVIRIS--NG%20L3-orange)](https://aviris.jpl.nasa.gov/)
