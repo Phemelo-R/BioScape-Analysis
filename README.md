@@ -13,7 +13,7 @@
 
 This repository contains the full analytical pipeline developed for the study:
 
-> **Rutlokoane, P., O'Farrell, P., & Blanchard, R.** — *Monitoring Leucadendron argenteum populations: exploring opportunities offered by emerging technologies.* Earth's Future (under review).
+> **Rutlokoane, P., O'Farrell, P., & Blanchard, R.** — *Monitoring Leucadendron argenteum populations: exploring opportunities offered by emerging technologies.* JGR Biogeosciences (under review).
 
 The Silvertree (*Leucadendron argenteum*) is a rare, silver-leaved endemic tree restricted to the Cape Peninsula of South Africa and listed as Vulnerable under the SANBI Red List. This study evaluates whether NASA's AVIRIS-NG hyperspectral imaging and LVIS full-waveform LiDAR, collected during the 2023 BioSCape campaign, can reliably detect, distinguish, and map *L. argenteum* populations across Table Mountain National Park.
 
@@ -179,7 +179,7 @@ If you use this code or pipeline in your work, please cite:
 
 ```
 Rutlokoane, P., O'Farrell, P., & Blanchard, R. (under review).
-Monitoring Leucadendron argenteum populations: exploring opportunities offered by emerging technologies. Earth's Future.
+Monitoring Leucadendron argenteum populations: exploring opportunities offered by emerging technologies. JGR Biogeosciences.
 ```
 
 ---
